@@ -29,6 +29,7 @@ import { MenuTopComponent } from './menu-top/menu-top.component';
 import { HomeComponent } from './home/home.component';
 import { PageTitleAndUrlComponent } from './page-title-and-url/page-title-and-url.component';
 import { RigthsideComponent } from './rigthside/rigthside.component';
+import { NewsComponent } from './news/news.component';
 
 
 const ROUTES: Routes = [
@@ -68,7 +69,8 @@ const ROUTES: Routes = [
     MenuTopComponent,
     HomeComponent,
     PageTitleAndUrlComponent,
-    RigthsideComponent
+    RigthsideComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
