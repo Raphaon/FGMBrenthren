@@ -30,18 +30,11 @@ import { HomeComponent } from './home/home.component';
 import { PageTitleAndUrlComponent } from './page-title-and-url/page-title-and-url.component';
 import { RigthsideComponent } from './rigthside/rigthside.component';
 import { NewsComponent } from './news/news.component';
+import { MessagesComponent } from './messages/messages.component';
+import { UserComponent } from './user/user.component';
+import { CommentsComponent } from './comments/comments.component';
 
 
-const ROUTES: Routes = [
-  {path: '', component:HomeComponent},
-  {path:'login', component:LoginComponent},
-  {path:'register', component:RegisterComponent},
-  {path: 'register',component:RegisterComponent},
-  {path: 'me', component:ProfileComponent},
-  {path: 'forgot-password', component:FogotPasswordComponent},
-  {path: 'recoverypassword', component:RecoveryPasswordComponent},
-  {path: '**', component: NotFoundComponent},
-];
 
 @NgModule({
   declarations: [
@@ -70,14 +63,19 @@ const ROUTES: Routes = [
     HomeComponent,
     PageTitleAndUrlComponent,
     RigthsideComponent,
-    NewsComponent
+    NewsComponent,
+    MessagesComponent,
+    UserComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(ROUTES)
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+ }

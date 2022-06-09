@@ -5,6 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './church-member.component.html',
   styleUrls: ['./church-member.component.css']
 })
+
+
+
 export class ChurchMemberComponent implements OnInit {
 
   constructor() { }
