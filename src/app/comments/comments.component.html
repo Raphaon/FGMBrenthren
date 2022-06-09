@@ -1,4 +1,8 @@
+
 <div *ngFor="let comment of commentList"  class="card-footer card-comments">
+  <div *ngIf="comment.postID == comment.id">
+
+  </div>
     <div class="card-comment">
       <!-- User image -->
       <img class="img-circle img-sm" src="{{comment.authorPicure}}" alt="User Image">
