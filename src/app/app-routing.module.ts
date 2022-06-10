@@ -39,6 +39,7 @@ const ROUTES: Routes = [
   {path: 'forgot-password', component:FogotPasswordComponent},
   {path: 'recoverypassword', component:RecoveryPasswordComponent},
   {path: 'members', component:ChurchMemberComponent,pathMatch:'full'},
+  {path: 'member/:id', component:ProfileComponent,pathMatch:'full'},
   {path: '**', component: NotFoundComponent},
 ];
 

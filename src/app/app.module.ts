@@ -33,6 +33,7 @@ import { NewsComponent } from './news/news.component';
 import { MessagesComponent } from './messages/messages.component';
 import { UserComponent } from './user/user.component';
 import { CommentsComponent } from './comments/comments.component';
+import { UserProfilComponent } from './user-profil/user-profil.component';
 
 
 
@@ -66,7 +67,8 @@ import { CommentsComponent } from './comments/comments.component';
     NewsComponent,
     MessagesComponent,
     UserComponent,
-    CommentsComponent
+    CommentsComponent,
+    UserProfilComponent
   ],
   imports: [
     BrowserModule,

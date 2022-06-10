@@ -41,7 +41,7 @@ memberList:Member[] = [];
       surname:'Underfinied',
       profession:'Unknow',
       phone: "+237 695 633 802",
-      address: "unknow",
+      address: "Nouvelle route bastos bp 11154",
       picture:"assets/dist/img/post_img/rapha1.jpg",
       description: "Lorem lorem lorem lorem lorem lorem lorem lorem"}
     ];
