@@ -34,6 +34,9 @@ import { MessagesComponent } from './messages/messages.component';
 import { UserComponent } from './user/user.component';
 import { CommentsComponent } from './comments/comments.component';
 import { UserProfilComponent } from './user-profil/user-profil.component';
+import { CommentComponent } from './comment/comment.component';
+import { PostComponent } from './post/post.component';
+import { LikeBtnComponent } from './like-btn/like-btn.component';
 
 
 
@@ -68,7 +71,10 @@ import { UserProfilComponent } from './user-profil/user-profil.component';
     MessagesComponent,
     UserComponent,
     CommentsComponent,
-    UserProfilComponent
+    UserProfilComponent,
+    CommentComponent,
+    PostComponent,
+    LikeBtnComponent
   ],
   imports: [
     BrowserModule,

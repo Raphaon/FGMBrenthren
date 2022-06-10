@@ -46,6 +46,10 @@ memberList:Member[] = [];
       description: "Lorem lorem lorem lorem lorem lorem lorem lorem"}
     ];
 
+
+    searchSlug:undefined;
+
+
   }
 
 }

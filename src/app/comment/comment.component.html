@@ -1,0 +1,20 @@
+
+<div  class="card-footer card-comments">
+  <div *ngIf="comment.postID == comment.id">
+
+  </div>
+    <div class="card-comment">
+      <!-- User image -->
+      <img class="img-circle img-sm" src="{{comment.authorPicure}}" alt="User Image">
+
+      <div class="comment-text">
+        <span class="username">
+          {{comment.authorName}}
+          <span class="text-muted float-right">{{ comment.postedAt}}</span>
+        </span><!-- /.username -->
+       {{comment.content}}
+      </div>
+      <!-- /.comment-text -->
+    </div>
+
+  </div>
