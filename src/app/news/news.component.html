@@ -75,7 +75,7 @@
                 <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> Share</button>
                 <button type="button"   [ngClass]="isLike ? 'btn btn-primary btn-sm' : 'btn btn-default btn-sm' "
                 
-               (click) ="likeAndDislike(i)" ><i class="far fa-thumbs-up" ></i> Like</button>
+               (click) ="likeAndDislike(i)" ><i class="far fa-thumbs-up" ></i> {{!isLike ? ("Like" ) : ("Unlike" )}}</button>
                 <span class="float-right text-muted">{{post.like}} 
                   {{post.like > 1 ? ("Likes" ) : ("Like" )}} - {{ postList.length }}  {{postList.length > 1 ? ("Comments" ) : ("Comment" )}}  </span>
               </div>
