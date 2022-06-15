@@ -27,13 +27,35 @@ import { PageTitleAndUrlComponent } from './page-title-and-url/page-title-and-ur
 import { RigthsideComponent } from './rigthside/rigthside.component';
 import { NewsComponent } from './news/news.component';
 import { MessagesComponent } from './messages/messages.component';
+import { PostComponent } from './post/post.component';
+import { UserComponent } from './user/user.component';
+import { GroupsComponent } from './groups/groups.component';
+import { GroupComponent } from './group/group.component';
 
 const ROUTES: Routes = [
-  
+
   {path: '', component:HomeComponent},
   {path:'login', component:LoginComponent},
-  
+  {path: "dashboard",component:DashbaordComponent},
+  {path:'regions', component:AreaComponent},
+  {path:'region/:id', component:AreaComponent},
+  {path:'districts', component:DistrictComponent},
+  {path:'district/:id', component:DistrictComponent},
+  {path:'churchs', component:ChurchComponent},
+  {path:'church/:id', component:ChurchComponent},
   {path:'register', component:RegisterComponent},
+  {path:'localisation/:id', component:LoginComponent},
+
+
+  {path:'deatharea', component:RegisterComponent},
+
+
+  {path:'transferMember', component:RegisterComponent},
+
+  {path:'post', component:PostComponent},
+  {path:'users', component:UserComponent},
+  {path:'groups', component:GroupsComponent},
+  {path:'group/:id', component:GroupComponent},
 
   {path: 'me', component:ProfileComponent , pathMatch: 'full'},
   {path: 'forgot-password', component:FogotPasswordComponent},

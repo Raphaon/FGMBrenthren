@@ -37,6 +37,14 @@ import { UserProfilComponent } from './user-profil/user-profil.component';
 import { CommentComponent } from './comment/comment.component';
 import { PostComponent } from './post/post.component';
 import { LikeBtnComponent } from './like-btn/like-btn.component';
+import { DashbordComponent } from './dashbord/dashbord.component';
+import { GroupComponent } from './group/group.component';
+import { GroupsComponent } from './groups/groups.component';
+import { SendPostComponent } from './send-post/send-post.component';
+import { LiveChatComponent } from './live-chat/live-chat.component';
+import { CircularComponent } from './circular/circular.component';
+import { EvensComponent } from './evens/evens.component';
+import { PictureComponent } from './picture/picture.component';
 
 
 
@@ -74,7 +82,15 @@ import { LikeBtnComponent } from './like-btn/like-btn.component';
     UserProfilComponent,
     CommentComponent,
     PostComponent,
-    LikeBtnComponent
+    LikeBtnComponent,
+    DashbordComponent,
+    GroupComponent,
+    GroupsComponent,
+    SendPostComponent,
+    LiveChatComponent,
+    CircularComponent,
+    EvensComponent,
+    PictureComponent
   ],
   imports: [
     BrowserModule,
