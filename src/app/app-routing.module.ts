@@ -31,11 +31,13 @@ import { PostComponent } from './post/post.component';
 import { UserComponent } from './user/user.component';
 import { GroupsComponent } from './groups/groups.component';
 import { GroupComponent } from './group/group.component';
+import { ChatVideoComponent } from './chat-video/chat-video.component';
 
 const ROUTES: Routes = [
 
   {path: '', component:HomeComponent},
   {path:'login', component:LoginComponent},
+  {path:'videoCall', component:ChatVideoComponent},
   {path: "dashboard",component:DashbaordComponent},
   {path:'regions', component:AreaComponent},
   {path:'region/:id', component:AreaComponent},

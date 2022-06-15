@@ -45,6 +45,9 @@ import { LiveChatComponent } from './live-chat/live-chat.component';
 import { CircularComponent } from './circular/circular.component';
 import { EvensComponent } from './evens/evens.component';
 import { PictureComponent } from './picture/picture.component';
+import { ChatComponent } from './chat/chat.component';
+import { ChatVideoComponent } from './chat-video/chat-video.component';
+import { BoardComponent } from './board/board.component';
 
 
 
@@ -90,7 +93,10 @@ import { PictureComponent } from './picture/picture.component';
     LiveChatComponent,
     CircularComponent,
     EvensComponent,
-    PictureComponent
+    PictureComponent,
+    ChatComponent,
+    ChatVideoComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,

@@ -45,8 +45,6 @@ memberList:Member[] = [];
       picture:"assets/dist/img/post_img/rapha1.jpg",
       description: "Lorem lorem lorem lorem lorem lorem lorem lorem"}
     ];
-
-
     searchSlug:undefined;
 
 
