@@ -32,6 +32,7 @@ import { UserComponent } from './user/user.component';
 import { GroupsComponent } from './groups/groups.component';
 import { GroupComponent } from './group/group.component';
 import { ChatVideoComponent } from './chat-video/chat-video.component';
+import { ChatComponent } from './chat/chat.component';
 
 const ROUTES: Routes = [
 
@@ -46,6 +47,9 @@ const ROUTES: Routes = [
   {path:'churchs', component:ChurchComponent},
   {path:'church/:id', component:ChurchComponent},
   {path:'register', component:RegisterComponent},
+
+  {path:'chat/:id', component:ChatComponent},
+
   {path:'localisation/:id', component:LoginComponent},
 
 

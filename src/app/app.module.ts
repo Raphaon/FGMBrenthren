@@ -48,7 +48,9 @@ import { PictureComponent } from './picture/picture.component';
 import { ChatComponent } from './chat/chat.component';
 import { ChatVideoComponent } from './chat-video/chat-video.component';
 import { BoardComponent } from './board/board.component';
-
+import { DiscutionComponent } from './discution/discution.component';
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -96,16 +98,18 @@ import { BoardComponent } from './board/board.component';
     PictureComponent,
     ChatComponent,
     ChatVideoComponent,
-    BoardComponent
+    BoardComponent,
+    DiscutionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-   
+   HttpClientModule,
+   FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  
+
  }

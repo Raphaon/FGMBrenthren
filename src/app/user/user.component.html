@@ -1,1 +1,10 @@
 <p>user works!</p>
+
+<div class="form-group">
+  username : <input type="text" value="" placeholder="write something" [(ngModel)]="username" class="form form-control"><br>
+  password : <input type="password" name="pass" id="" [(ngModel)]="password" placeholder="type your password" class="form-control">
+  <input type="button" value="Login" class="btn btn-primary" (click)="login(username, password)">
+</div>
+
+<div ></div>
+isAuth : {{isAuth}}
