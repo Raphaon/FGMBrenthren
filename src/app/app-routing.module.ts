@@ -68,6 +68,8 @@ const ROUTES: Routes = [
   {path: 'recoverypassword', component:RecoveryPasswordComponent},
   {path: 'members', component:ChurchMemberComponent,pathMatch:'full'},
   {path: 'member/:id', component:ProfileComponent,pathMatch:'full'},
+
+  {path: 'agenda', component: CalenderComponent},
   {path: '**', component: NotFoundComponent},
 ];
 
