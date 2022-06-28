@@ -39,6 +39,26 @@
           </div>
           <!-- /.col -->
         </div>
+
+
+        <div class="card card-success card-outline">
+          <div class="card-header">
+            <h3 class="card-title">
+              <i class="fas fa-edit"></i>
+              SweetAlert2 Examples
+            </h3>
+          </div>
+          <div class="card-body">
+            <button type="button" class="btn btn-success swalDefaultSuccess">
+              Launch Success Toast
+            </button>
+
+            <button type="button" class="btn btn-danger swalDefaultError">
+              Launch Error Toast
+            </button>
+          </div>
+          <!-- /.card -->
+        </div>
       </form>
 
       <!--div class="social-auth-links text-center mt-2 mb-3">
@@ -67,9 +87,39 @@
 <!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<script src="assets/dist/js/adminlte.min.js"></script>
+
+<script>
+  $(function() {
+
+    alert();
+
+    var Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000
+    });
+
+    $('.swalDefaultSuccess').click(function() {
+      Toast.fire({
+        icon: 'success',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+
+    $('.swalDefaultInfo').click(function() {
+      Toast.fire({
+        icon: 'info',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+
+
+  });
+</script>
 </body>
