@@ -1,7 +1,38 @@
 {
 
+"Region" : [
+  {"codeRegion":1, "name":"Centre I", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"Centre II", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"LITTORAL I", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"LITTORAL II", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"SUD", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"OUEST", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"NORD OUEST I", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"NORD OUEST II", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"SUD OUEST I", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"SUD OUEST II", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"SUD OUEST III", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"NORD", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"EXTREME-NORD", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"ADAMAOUA", "localisation":"Centre","siegeSociale": "Elig-essono", "bp": "BP11154"},
+  {"codeRegion":1, "name":"EST", "localisation":"EST","siegeSocial": "Elig-essono", "bp": "BP11154"}]
+,
+
+
+"Districts": [{"codeDistrict": "MPE0009DIS", "codeRegion": "MPE0009", "name": "District 1", "siegeSocial": "UNknow"}]
+,
+
+
+
+
+
+
+
+
+
+
   "Users": [
-    {"matricule":"MPEGC0001", "username":"raphaondobo@gmail.com", "password":"JesusLove", "Phone":"+237 695633802", "name":"ONDOBO MVOLO", "surname":"Rapha", "picture":"rapha.png" }
+    {"matricule":"MPEGC0001", "username":"Raphaon","email":"raphaondobo@gmail.com", "password":"JesusLove", "Phone":"+237 695633802", "name":"ONDOBO MVOLO", "surname":"Rapha", "picture":"rapha.png" }
   ],
 
   "posts": [

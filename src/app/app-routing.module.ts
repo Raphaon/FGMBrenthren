@@ -33,6 +33,7 @@ import { GroupsComponent } from './groups/groups.component';
 import { GroupComponent } from './group/group.component';
 import { ChatVideoComponent } from './chat-video/chat-video.component';
 import { ChatComponent } from './chat/chat.component';
+import { BoardComponent } from './board/board.component';
 
 const ROUTES: Routes = [
 
